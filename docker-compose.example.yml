@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  tracing:
+    hostname: tracer
+    image: openzipkin/zipkin:latest
+    ports:
+      - 9411:9411
